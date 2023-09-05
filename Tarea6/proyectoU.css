@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+   
+}
+
+.tituloo {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 10%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.carrusel3{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+#Venom1 {
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: zoom 5s linear infinite;
+}
+@keyframes zoom {
+    100%{
+        width: 100%;
+
+    }
+}
+.text-box {
+    width: 600px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    color: #ffffff;
+   
+}
+
+.text-box p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+
+.text-box span {
+    background: tomato;
+    height: 5px;
+    width: 500px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+#Venom12 {
+    width: 30%;
+    border: 1px solid #383535;
+}
